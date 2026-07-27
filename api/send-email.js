@@ -56,20 +56,20 @@ export default async function handler(req, res) {
 
     const { email } = req.body;
 
-    try {
-        const { data, error } = await resend.emails.send({
-            from: "SplitIt <onboarding@resend.dev>", // change later to your verified domain
-            to: email,
-            subject: "Thanks for signing up for emails!",
-            html: emailHtml,
-        });
+try {
+    const { data, error } = await resend.emails.send({
+        from: "SplitIt <onboarding@resend.dev>",
+        to: email,
+        subject: "Thanks for signing up for emails!",
+        html: emailHTML,
+    });
 
-        if (error) {
-            return res.status(500).json(error);
-        }
-
-        res.status(200).json(data);
-    } catch (err) {
-        res.status(500).json({ error: err.message });
+    if (error) {
+        console.error(error);
+    } else {
+        console.log("Email sent:", data);
     }
-}
+
+} catch (err) {
+    console.error(err);
+}}
