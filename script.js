@@ -2,12 +2,23 @@
 const { animate, hover, scroll } = Motion;
 const letsGo = document.getElementById("sign-up")
 //Variables END
-letsGo.addEventListener("click", (e) => {
-    console.log("Click detected, showing modal....")
-    window.location.href = "app.html";
-    return;
-});
 
+//Resend Module BEGIN
+button.addEventListener("click", async () => {
+    const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            email: input.value
+        })
+    });
+
+    const result = await response.json();
+    console.log(result);
+}); 
+//RESEND Module END
 //Animation Below:
 //Sign-up hover
 hover(".sign-up", (element) => {
