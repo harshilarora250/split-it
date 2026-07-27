@@ -2,25 +2,34 @@
 const { animate, hover, scroll } = Motion;
 const letsGo = document.getElementById("sign-up")
 const button = document.getElementById("notify")
+const modal = document.getElementById("ads-modal")
+const email = document.getElementById("email")
 //Variables END
 
 //Resend Module BEGIN
-button.addEventListener("click", async () => {
-    console.log("click detected!")
-    remove
-    const response = await fetch("/api/send-email", {
+//Wait for modal click
+letsGo.addEventListener("click", (e) => {
+        console.log("click detected!")
+    modal.removeAttribute("hidden");
+    //Modal showed, waiting for email option
+    button.addEventListener("click", async () => {
+
+        const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            email: input.value
+            email: email.value
         })
     });
 
     const result = await response.json();
     console.log(result);
 }); 
+});
+
+
 //RESEND Module END
 //Animation Below:
 //Sign-up hover
