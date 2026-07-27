@@ -6,6 +6,8 @@ const button = document.getElementById("notify")
 
 //Resend Module BEGIN
 button.addEventListener("click", async () => {
+    console.log("click detected!")
+    remove
     const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
