@@ -1,6 +1,7 @@
 //Variables:
 const { animate, hover, scroll } = Motion;
 const letsGo = document.getElementById("sign-up")
+const button = document.getElementById("notify")
 //Variables END
 
 //Resend Module BEGIN
