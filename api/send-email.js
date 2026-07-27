@@ -43,7 +43,7 @@ p {
         Welcome to SplitIt. We're excited to have you with us.
         You'll receive updates and important information soon.
     </p>
-    <a href="https://splitit-hack.vercel.app/app.html/">Get Started!</a>
+    <a href="https://splitit-hack.vercel.app/app.html/" target="_blank">Get Started!</a>
 </div>
 </body>
 </html>
