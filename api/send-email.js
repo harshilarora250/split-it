@@ -52,14 +52,14 @@ const emailHTML = `
 
 <body>
     <div class="container">
-        <h1>Thanks for signing up!</h1>
+        <h1>Thanks for signing up and showing support!</h1>
 
         <p>
-            Welcome to SendIt. We're excited to have you with us.
-            You'll start receiving updates and important information soon.
+            Welcome to SplitIt community. We're excited to have you with us.
+            You'll start receiving updates and important information soon. (Current update, we're about to start a community post soon everyone can enter how they use SplitIt)
         </p>
 
-        <a class="button" href="https://splitit-hack.vercel.app/app.html">
+        <a class="button" href="https://splitit-hack.vercel.app/app.html" target="_blank">
             Get Started
         </a>
         <br>
