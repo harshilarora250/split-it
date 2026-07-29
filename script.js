@@ -13,6 +13,7 @@ letsGo.addEventListener("click", (e) => {
     modal.removeAttribute("hidden");
     //Modal showed, waiting for email option
     button.addEventListener("click", async () => {
+        window.location.href = "app.html"
 
         const response = await fetch("/api/send-email", {
         method: "POST",
@@ -21,7 +22,9 @@ letsGo.addEventListener("click", (e) => {
         },
         body: JSON.stringify({
             email: email.value
+    
         })
+        
     });
 
     const result = await response.json();
