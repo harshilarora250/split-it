@@ -4,6 +4,7 @@ const letsGo = document.getElementById("sign-up")
 const button = document.getElementById("notify")
 const modal = document.getElementById("ads-modal")
 const email = document.getElementById("email")
+const user = document.getElementById("name")
 //Variables END
 
 //Resend Module BEGIN
@@ -14,6 +15,8 @@ letsGo.addEventListener("click", (e) => {
     //Modal showed, waiting for email option
     button.addEventListener("click", async () => {
         window.location.href = "app.html"
+        localStorage.setItem("name", email.value)
+        localStorage.setItem("name", user.value)
 
         const response = await fetch("/api/send-email", {
         method: "POST",
