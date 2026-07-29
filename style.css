@@ -1,3 +1,8 @@
+::selection {
+    background-color: #993CCF;
+    color: #FFA937;
+}
+
 body {
     background-color: #222222;
     margin: 0;
@@ -56,3 +61,12 @@ header {
     text-align: center;
 }
 
+.footer {
+    position: fixed;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
