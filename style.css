@@ -70,3 +70,23 @@ header {
     left: 50%;
     transform: translateX(-50%);
 }
+
+.note-from-dev {
+    margin-top: 375px;
+}
+
+.note-header {
+    color: white;
+    margin-left: 25px;
+    font-family: "Libertinus Math", system-ui;
+}
+
+.explain {
+    color: white;
+    margin-left: 25px;
+    font-family: "Edu VIC Wa NT Hand", cursive;
+}
+
+.cool {
+    color: red;
+}
