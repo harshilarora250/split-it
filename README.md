@@ -1,4 +1,4 @@
-<img align="left" src="assets/hc.png" width="100">
+<img align="left" src="assets/hc.png" width="100">  
 
 
 # SplitIt
