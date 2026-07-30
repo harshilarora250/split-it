@@ -5,6 +5,7 @@ const button = document.getElementById("notify")
 const modal = document.getElementById("ads-modal")
 const email = document.getElementById("email")
 const user = document.getElementById("name")
+const nothx = document.getElementById("no-notify")
 //Variables END
 
 //Resend Module BEGIN
@@ -34,6 +35,10 @@ letsGo.addEventListener("click", (e) => {
     console.log(result);
 }); 
 });
+
+nothx.addEventListener("click", (e) => {
+    window.location.href = "app.html"
+})
 
 
 //RESEND Module END
