@@ -1,7 +1,4 @@
 import { Resend } from "resend";
-
-
-const name = localStorage.getItem("username")
 const resend = new Resend(process.env.RESEND_API_KEY);
 //Email thing
 const emailHTML = `
