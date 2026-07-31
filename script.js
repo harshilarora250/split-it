@@ -15,7 +15,6 @@ letsGo.addEventListener("click", (e) => {
     modal.removeAttribute("hidden");
     //Modal showed, waiting for email option
     button.addEventListener("click", async () => {
-        window.location.href = "app.html"
         localStorage.setItem("name", email.value)
         localStorage.setItem("name", user.value)
 
@@ -28,13 +27,14 @@ letsGo.addEventListener("click", (e) => {
             email: email.value
     
         })
-        
     });
 
     const result = await response.json();
     console.log(result);
+    console.log("email sent")
 }); 
 });
+
 
 nothx.addEventListener("click", (e) => {
     window.location.href = "app.html"
