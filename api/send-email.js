@@ -1,5 +1,7 @@
 import { Resend } from "resend";
 
+
+const name = localStorage.getItem("username")
 const resend = new Resend(process.env.RESEND_API_KEY);
 //Email thing
 const emailHTML = `
@@ -52,7 +54,7 @@ const emailHTML = `
 
 <body>
     <div class="container">
-        <h1>Thanks for signing up and showing support!</h1>
+        <h1>Hello ${name}, Thanks for signing up and showing support!</h1>
 
         <p>
             Welcome to SplitIt community. We're excited to have you with us.
