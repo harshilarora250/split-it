@@ -51,7 +51,7 @@ const emailHTML = `
 
 <body>
     <div class="container">
-        <h1>Hello ${name}, Thanks for signing up and showing support!</h1>
+        <h1>Hello, Thanks for signing up and showing support!</h1>
 
         <p>
             Welcome to SplitIt community. We're excited to have you with us.
