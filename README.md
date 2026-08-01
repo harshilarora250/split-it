@@ -1,10 +1,3 @@
-[![Contributors][contributors-shield]][https://github.com/harshilarora250/split-it/graphs/contributors]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <img align="left" src="assets/hc.png" width="100">  
 
 
