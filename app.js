@@ -19,5 +19,22 @@ submit.addEventListener("click", (e) => {
     }
 });
 
+
+
 //Animation Below:
+hover(submit, (element) => {
+    console.log("hover started on", element);
+    animate(
+        element,
+        { scale: 1.1 },
+        { duration: 0.3 }
+    );
+    return () => {
+        animate(
+            element,
+            { scale: 1 },
+            { duration: 0.3 }
+        );
+    };
+});
 //Animations END

@@ -63,4 +63,34 @@ hover(".sign-up", (element) => {
     };
 });
 // Sign-up hover end
+hover(button, (element) => {
+    console.log("hover started on", element);
+    animate(
+        element,
+        { scale: 1.1 },
+        { duration: 0.3 }
+    );
+    return () => {
+        animate(
+            element,
+            { scale: 1 },
+            { duration: 0.3 }
+        );
+    };
+});
+hover(".notify", (element) => {
+    console.log("hover started on", element);
+    animate(
+        element,
+        { scale: 1.1 },
+        { duration: 0.3 }
+    );
+    return () => {
+        animate(
+            element,
+            { scale: 1 },
+            { duration: 0.3 }
+        );
+    };
+});
 //Animations END
