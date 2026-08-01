@@ -14,8 +14,9 @@ letsGo.addEventListener("click", (e) => {
         console.log("click detected!")
     modal.removeAttribute("hidden");
     //Modal showed, waiting for email option
-    window.location.href = "app.html"
+    
     button.addEventListener("click", async () => {
+        window.location.href = "app.html"
         localStorage.setItem("name", email.value)
         localStorage.setItem("name", user.value)
 
@@ -27,7 +28,9 @@ letsGo.addEventListener("click", (e) => {
         body: JSON.stringify({
             email: email.value
     
+            
         })
+        
     });
 
     const result = await response.json();
