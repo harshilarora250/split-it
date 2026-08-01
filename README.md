@@ -2,7 +2,9 @@
 
 
 # SplitIt
-You select names in a classroom, or a group of people, then make teams. What differenciates from others? Free, open-source, no ads, no trackers. (I think, no gaurantee)
+You select names in a classroom, or a group of people, then make teams. What differenciates from others? Free, open-source, no ads, no trackers. (I think, no gaurantee) Check out what it looks like:
+
+<img src="assets/howitlooks.png">
 
 ## Forking
 To fork, simply follow the steps ahead
