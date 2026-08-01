@@ -18,7 +18,7 @@ Now, you can open VS Code download the [live-server](https://marketplace.visuals
 I used lapse/lookout because Hackatime doesn't work well on my computer and under-recorded hours.
 
 ## AI Declaration
-I used AI to fix bugs, and learn new things. If I properly learnt it I won't use it again. For more detailed info on AI, watch the lookout vid!
+I used AI to fix bugs, and learn new things (like the actual group splitting algorithm, but i told it to give hints and not the answer straight out) If I properly learnt it I won't use it again. For more detailed info on AI, watch the lookout vid!
 
 ## Contribution
 This project was developed by [Harshil Arora](https://elipseday-nine.vercel.app/)
